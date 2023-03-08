@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage("TEST"){
+        stage("BUILD"){
             steps{
                 sh 'echo "test"'
                 sh 'docker --version'

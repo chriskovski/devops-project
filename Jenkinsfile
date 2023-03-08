@@ -5,7 +5,7 @@ pipeline {
             steps{
                 sh 'echo "test"'
                 sh 'docker --version'
-                sh 'docker run hello-world'
+                sh 'sudo docker run hello-world'
             }
         }
     }

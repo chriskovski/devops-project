@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage("BUILD"){
             steps{
-                sh 'echo "test"'
-                sh 'docker --version'
-                sh 'sudo docker run hello-world'
+                sh 'java -cp todo-cool.jar de.telekom.App' 
             }
         }
     }
